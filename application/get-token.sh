@@ -1,4 +1,4 @@
-curl --url 'http://localhost:8080/realms/test_realm/protocol/openid-connect/token' \
+curl --url 'http://localhost:8080/realms/test_realm/protocol/openid-connect/token' --request POST\
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=client_credentials' \
 --data-urlencode 'client_id=test-client' \
