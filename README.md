@@ -10,7 +10,7 @@
 
 Run the dockerized keycloak application under the `kc` folder typing:
 
-  docker-compose run -d
+    docker-compose run -d
 
 ### Configuration
 
