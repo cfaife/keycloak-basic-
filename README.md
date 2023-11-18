@@ -14,11 +14,11 @@ Run the dockerized keycloak application under the `kc` folder typing:
 
 ### Configuration
 
-1 - Create the a realm
-2 - inside the realm create a client
+  * Create the a realm
+  * inside the realm create a client
 
 ## Application
 
 First you need to import the library gocloak typing the following command  in the root of the applcation project:
 
-  go get github.com/Nerzal/gocloak/v13
+    go get github.com/Nerzal/gocloak/v13
